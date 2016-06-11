@@ -1,5 +1,6 @@
 # DT-webgallery
 Simple web-gallery for Darktable
+As displayed here: http://sakrecoer.com/DT-export/
 
 ## Variables
 - ${title} : Title of the galery (currently inserted in the export prompt)
