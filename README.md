@@ -2,6 +2,15 @@
 Simple web-gallery for Darktable
 
 ## Variables
+- ${title} : Title of the galery (currently inserted in the export prompt)
+- ${author} : Author (Could this be added to the export prompt?)
+- ${ALLtags} : (All tags from all the photos)
+- ${publisher} : publisher of the photo as entered in the metadata editor, if any.
+- ${filename} : Filename of the exported picture
+- ${photo-title} : Title of the photo as entered in the metadata editor, if any.
+- ${description} : Description of the photo as entered in the metadata editor, if any.
+- ${photo-tags} : Tags of the photo as entered in the metadata editor, if any. 
+- ${license} : License of the photo as entered in the metadata editor, if any.
 
 ### What?
 The plan is to make a basic, lightweight responsive layout relying only on html5 and CSS3 for darktable. Because i want to avoid using .js depencies, the navigation is going to be very basic and straightforward. 
