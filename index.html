@@ -34,7 +34,7 @@ a:hover {color: #009bf9;}
 </div>
 
 <!--  for each photo -->
-<div class="vignette" style="background:url(P1011907.jpg);background-size:contain;background-repeat:no-repeat;background-attachment:fixed;background-position:center;">
+<div class="vignette" style="background:url(${filename});background-size:contain;background-repeat:no-repeat;background-attachment:fixed;background-position:center;">
 </div> 
 <div class="legend">
  <h3>${photo-title}</h3>
@@ -46,7 +46,7 @@ a:hover {color: #009bf9;}
 
 
 <div class="footer">
- <p>Gallery generated with <a href="www.darktable.org" target="_blank">darktable</a> - ${license}<br /> 
+ <p>Gallery generated with <a href="http://www.darktable.org" target="_blank">darktable</a> - ${license}<br /> 
   <script language="JavaScript" type="text/javascript">
       document.write("download all: <em>wget -r -np -nc -k " + document.documentURI + "</em>")
       </script></p>
