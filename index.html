@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+ <title>${title} - Photos by ${author}</title>
+ <meta charset="utf-8" />
+ <meta name='robots' content='index'/>
+ <meta name="description" content="">
+ <meta name="keywords" content="${ALLtags}, ${author}, ${publisher}">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+
+html{ font-family: Dejavu Sans, Droid Sans, Ubuntu, Helvetica, Arial, sans-serif, sans; font-size: 1em;}
+body{margin: 0;height: 100%;background: #333; color: #e2e2e2;}
+.vignette {position:relative;min-width:100%;min-height:100vh;width:100%;height:100vh;}
+p, h3{margin: 20px 20px 0 20px;}
+a {color: #e2e2e2;-webkit-transition-property: hover;-webkit-transition: color 0.2s ease-in-out;-moz-transition: color 0.2s linear 0s;-o-transition-property: color;-o-transition-duration: 0.2s;}
+a:hover {color: #009bf9;}
+.legend {padding-bottom:50px;width:75%;max-width: 600px; min-width:300px;}
+.footer {padding:50px 0 50px 0; font-size:0.8em; background-color:#212121;}
+.pagetitle{ padding:20px; background:#212121;}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="pagetitle">
+ <h1>${title}</h1>
+ <h2>Photos by ${author}</h2>
+</div>
+
+<!--  for each photo -->
+<div class="vignette" style="background:url(P1011907.jpg);background-size:contain;background-repeat:no-repeat;background-attachment:fixed;background-position:center;">
+</div> 
+<div class="legend">
+ <h3>BW-77 on stage</h3>
+ <p>Tweak it until it Hz! Rocking the brainwave-77 live in direct. This machine scans your brrainwave to render unconditionaly good music
+ </p> 
+ <p style="font-size:0.9em"><b>tags:</b> music, live, cyprus, sisamo, electronics, BW77 - <a href="${filename}">Download</a>
+ </p>
+</div>
+<!--  end for each photo -->
+
+
+<div class="footer">
+ <p>Gallery generated with <a href="www.darktable.org" target="_blank">darktable</a> - ${license}<br /> 
+  <script language="JavaScript" type="text/javascript">
+      document.write("download all: <em>wget -r -np -nc -k " + document.documentURI + "</em>")
+      </script></p>
+</div>
+
+</body>
+
+</html>
+
+
