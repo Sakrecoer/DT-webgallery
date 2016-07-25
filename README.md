@@ -1,3 +1,5 @@
+# ATTENTION: This is not a plugin, you cannot install it to your darktable. It is only a sketch/mockup of how it could look and has been discontinued.
+
 # DT-webgallery
 Simple web-gallery for Darktable
 As displayed here: http://sakrecoer.com/DT-export/
